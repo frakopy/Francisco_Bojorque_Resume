@@ -1,0 +1,178 @@
+body{
+    font-family: Helvetica, sans-serif;
+    background-color: #333;
+    color: #fff;
+}
+
+header{
+    width: 370px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #B85C38;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.aside-1{   
+    width: 25%;
+    float: left;
+    padding-left: 15%;
+}
+
+
+.container-1{
+    padding-left: 10px;
+    width: 96%;
+    background-color: #334756;
+}
+
+.container-2{
+    padding-top: 10px;
+    width:70%;
+    background-color: #27496D;
+    padding-left: 50px;
+    
+}
+
+li{
+    margin-bottom: 15px;
+}
+
+li:last-child{
+    padding-bottom:373px;
+}
+
+.aside-2{
+    width: 55%;
+    float: left;
+}
+
+.skills-list{
+    text-align: left;
+    padding-left: 15px;
+    list-style-type: disc;
+}
+
+.contact{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.contact img{
+    float: left;
+    margin-right: 10px;
+}
+
+.img-container{
+    padding-bottom: 3px;
+}
+
+.img-container p{
+    padding-top: 10px;
+}
+
+
+span{
+    margin-left: 20px;
+}
+
+.experience-desc{
+    width: 500px;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+br {
+    margin-bottom: 1em;
+}
+
+.sub-title-aside2{
+    border-bottom: 1px solid #fff;
+    width: 450px;
+    margin-left: 65px;
+    margin-top: 40px;
+}
+
+.sub-title-aside1{
+    padding-top: 15px;
+    border-bottom: 1px solid #fff;
+    width: 340px;
+}
+
+.position-job{
+    color:#FFE98A;
+}
+
+.container-2 img{
+    float:left;
+    margin-right: 10px;
+}
+
+
+article{
+    padding-top: 10px;
+}
+
+.experience article:last-child{
+    padding-bottom: 20px;
+}
+
+/*--------------------------- Defining a media query for small screens ----------------------------------------------*/
+
+@media (max-width: 600px) {
+
+    header{
+        width: 98%;
+        font-size: 30px;
+        text-align: center;
+        background-color: #B85C38;
+        border-radius: 10px;
+        color: #fff;
+    }
+
+    .aside-1{   
+        width: 100%;
+        float: left;
+        padding-left: 3px;
+    }
+
+    li:last-child{
+        padding-bottom:5px;
+    }
+    
+    .aside-2{
+        width: 100%;
+        float: bottom;
+        padding-left: 3px;
+    }
+
+    .container-2{
+        width:96%;
+        padding-left: 10px;
+        background-color: #27496D;
+    }
+
+    .sub-title-aside2{
+        border-bottom: 1px solid #fff;
+        width: 300px;
+        margin-left: 65px;
+        margin-top: 40px;
+    }
+    
+    .sub-title-aside1{
+        padding-top: 15px;
+        border-bottom: 1px solid #fff;
+        width: 350px;
+    }
+    
+    .experience-desc{
+        width: 320px;
+        text-align: left;
+        padding-bottom: 10px;
+    }
+
+    span{
+        margin-left: 0px;
+    }
+
+}
