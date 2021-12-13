@@ -13,26 +13,21 @@ header{
     color: #fff;
 }
 
+/*--------------------------- Working with first aside ----------------------------------------------*/
 .aside-1{   
     width: 25%;
+    height: 1331px;
     float: left;
     padding-left: 15%;
 }
 
-
 .container-1{
     padding-left: 10px;
     width: 96%;
+    height: 100%;
     background-color: #334756;
 }
 
-.container-2{
-    padding-top: 10px;
-    width:70%;
-    background-color: #27496D;
-    padding-left: 50px;
-    
-}
 
 li{
     margin-bottom: 15px;
@@ -42,10 +37,6 @@ li:last-child{
     padding-bottom:10px;
 }
 
-.aside-2{
-    width: 55%;
-    float: left;
-}
 
 .skills-list{
     text-align: left;
@@ -61,6 +52,22 @@ li:last-child{
 .contact img{
     float: left;
     margin-right: 10px;
+}
+
+/*--------------------------- Working with second aside ----------------------------------------------*/
+.aside-2{
+    width: 55%;
+    height: 1376px;
+    float: left;
+}
+
+.container-2{
+    padding-top: 10px;
+    width:70%;
+    height: 100%;
+    background-color: #27496D;
+    padding-left: 50px;
+    
 }
 
 .img-container{
