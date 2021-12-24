@@ -4,6 +4,33 @@ body{
     color: #fff;
 }
 
+.MyName{
+    width:calc(20vw + 55px);
+    height:calc(2vw + 17px);
+    background-image:linear-gradient(90deg,#EEEEEE 0, #0D7377 49%, #2D4059 80%, #3797A4 100%);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius: 10px;
+    text-transform:uppercase;
+    animation: slidebg 3s linear infinite
+}
+
+.MyName::after{
+    content:'Francisco Bojorque';
+    width:23vw;
+    height:2vw;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #333;
+    border-radius: 10px;
+    color: #fff;
+}
+
+@keyframes slidebg{to{background-position:20vw}}
+
+
 header{
     width: 370px;
     font-size: 30px;
@@ -16,7 +43,7 @@ header{
 /*--------------------------- Working with first aside ----------------------------------------------*/
 .aside-1{   
     width: 25%;
-    height: 1331px;
+    height: 1318px;
     float: left;
     padding-left: 15%;
 }
@@ -32,11 +59,6 @@ header{
 li{
     margin-bottom: 15px;
 }
-
-li:last-child{
-    padding-bottom:10px;
-}
-
 
 .skills-list{
     text-align: left;
@@ -57,7 +79,7 @@ li:last-child{
 /*--------------------------- Working with second aside ----------------------------------------------*/
 .aside-2{
     width: 55%;
-    height: 1376px;
+    height: 1377px;
     float: left;
 }
 
@@ -128,15 +150,41 @@ article{
 
 @media (max-width: 600px) {
 
-    header{
+    /* header{
         width: 98%;
         font-size: 30px;
         text-align: center;
         background-color: #B85C38;
         border-radius: 10px;
         color: #fff;
-    }
+    } */
 
+    .MyName{
+        width:calc(80vw + 55px);
+        height:calc(5vw + 17px);
+        background-image:linear-gradient(90deg,#EEEEEE 10%, #0D7377 49%, #2D4059 80%, #3797A4 100%);
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-radius: 10px;
+        text-transform:uppercase;
+        animation: slidebg 3s linear infinite
+    }
+    
+    .MyName::after{
+        content:'Francisco Bojorque';
+        width:91vw;
+        height:6vw;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 3px;
+        background-color: #333;
+        border-radius: 10px;
+        color: #fff;
+    }
+    
+    @keyframes slidebg{to{background-position:20vw}}
+    
     .aside-1{   
         width: 100%;
         height: 980px;
