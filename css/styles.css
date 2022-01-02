@@ -1,0 +1,227 @@
+body{
+    font-family: Helvetica, sans-serif;
+    background-color: #333;
+    color: #fff;
+}
+
+.MyName{
+    width:calc(20vw + 55px);
+    height:calc(2vw + 17px);
+    background-image:linear-gradient(90deg,#EEEEEE 0, #0D7377 49%, #2D4059 80%, #FF5722 100%); 
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius: 10px;
+    text-transform:uppercase;
+    animation: slidebg 3s linear infinite
+}
+
+.MyName::after{
+    content:'Francisco Bojorque';
+    width:23vw;
+    height:2vw;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #333;
+    border-radius: 10px;
+    color: #fff;
+}
+
+@keyframes slidebg{to{background-position:23vw}}
+
+
+header{
+    width: 370px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #B85C38;
+    border-radius: 10px;
+    color: #fff;
+}
+
+/*--------------------------- Working with first aside ----------------------------------------------*/
+.aside-1{   
+    width: 25%;
+    height: 1318px;
+    float: left;
+    padding-left: 15%;
+}
+
+.container-1{
+    padding-left: 10px;
+    width: 96%;
+    height: 100%;
+    background-color: #334756;
+}
+
+
+li{
+    margin-bottom: 15px;
+}
+
+.skills-list{
+    text-align: left;
+    padding-left: 15px;
+    list-style-type: disc;
+}
+
+.contact{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.contact img{
+    float: left;
+    margin-right: 10px;
+}
+
+/*--------------------------- Working with second aside ----------------------------------------------*/
+.aside-2{
+    width: 55%;
+    height: 1377px;
+    float: left;
+}
+
+.container-2{
+    padding-top: 10px;
+    width:70%;
+    height: 100%;
+    background-color: #27496D;
+    padding-left: 50px;
+    
+}
+
+.img-container{
+    padding-bottom: 3px;
+}
+
+.img-container p{
+    padding-top: 10px;
+}
+
+
+span{
+    margin-left: 20px;
+}
+
+.experience-desc{
+    width: 500px;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+br {
+    margin-bottom: 1em;
+}
+
+.sub-title-aside2{
+    border-bottom: 1px solid #fff;
+    width: 450px;
+    margin-left: 65px;
+    margin-top: 40px;
+}
+
+.sub-title-aside1{
+    padding-top: 15px;
+    border-bottom: 1px solid #fff;
+    width: 340px;
+}
+
+.position-job{
+    color:#FFE98A;
+}
+
+.container-2 img{
+    float:left;
+    margin-right: 10px;
+}
+
+
+article{
+    padding-top: 10px;
+}
+
+.experience article:last-child{
+    padding-bottom: 20px;
+}
+
+/*--------------------------- Defining a media query for small screens ----------------------------------------------*/
+
+@media (max-width: 600px) {
+
+    .MyName{
+        width:calc(80vw + 55px);
+        height:calc(5vw + 17px);
+        background-image:linear-gradient(90deg,#EEEEEE 0, #0D7377 49%, #2D4059 80%, #FF5722 100%);    
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-radius: 10px;
+        text-transform:uppercase;
+        animation: slidebg 3s linear infinite
+    }
+    
+    .MyName::after{
+        content:'Francisco Bojorque';
+        width:91vw;
+        height:6vw;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 3px;
+        background-color: #333;
+        border-radius: 10px;
+        color: #fff;
+    }
+    
+    @keyframes slidebg{to{background-position:95vw}}
+    
+    .aside-1{   
+        width: 100%;
+        height: 980px;
+        float: left;
+        padding-left: 3px;
+        margin-bottom: 65px;
+    }
+
+    li:last-child{
+        padding-bottom:5px;
+    }
+    
+    .aside-2{
+        width: 100%;
+        height: 1635px;
+        float: bottom;
+        padding-left: 3px;
+    }
+
+    .container-2{
+        width:96%;
+        padding-left: 10px;
+        background-color: #27496D;
+    }
+
+    .sub-title-aside2{
+        border-bottom: 1px solid #fff;
+        width: 300px;
+        margin-left: 65px;
+        margin-top: 40px;
+    }
+    
+    .sub-title-aside1{
+        padding-top: 15px;
+        border-bottom: 1px solid #fff;
+        width: 350px;
+    }
+    
+    .experience-desc{
+        width: 320px;
+        text-align: left;
+        padding-bottom: 10px;
+    }
+
+    span{
+        margin-left: 0px;
+    }
+
+}
