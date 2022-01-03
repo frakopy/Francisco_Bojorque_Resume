@@ -31,15 +31,6 @@ body{
 @keyframes slidebg{to{background-position:23vw}}
 
 
-/* header{
-    width: 370px;
-    font-size: 30px;
-    text-align: center;
-    background-color: #B85C38;
-    border-radius: 10px;
-    color: #fff;
-} */
-
 /*--------------------------- Working with first aside ----------------------------------------------*/
 .aside-1{   
     width: 25%;
@@ -87,6 +78,7 @@ li{
     padding-top: 10px;
     width:70%;
     height: 100%;
+    position: relative;
     background-color: #27496D;
     padding-left: 50px;
     
@@ -120,6 +112,36 @@ br {
     width: 450px;
     margin-left: 65px;
     margin-top: 40px;
+}
+
+button {
+    padding: 10px;
+    font-size: 12px;
+    position: absolute;
+    left: 250px;
+    top: 910px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: #FF4C29;
+    box-shadow: 0px 15px 20px rgba(207, 61, 25, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+button:active {
+    transform: translateY(-1px);
 }
 
 .sub-title-aside1{
