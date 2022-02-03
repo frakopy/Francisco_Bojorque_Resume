@@ -32,6 +32,13 @@ body{
 
 
 /*--------------------------- Working with first aside ----------------------------------------------*/
+
+p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+}
+
+
 .aside-1{   
     width: 25%;
     height: 1318px;
@@ -68,6 +75,7 @@ li{
 }
 
 /*--------------------------- Working with second aside ----------------------------------------------*/
+
 .aside-2{
     width: 55%;
     height: 1377px;
@@ -79,7 +87,7 @@ li{
     width:70%;
     height: 100%;
     background-color: #27496D;
-    padding-left: 50px;
+    padding-left: 30px;
 }
 
 .img-container{
@@ -169,7 +177,10 @@ article{
     font-size: 27px;
     font-family: 'Dancing Script', cursive;
     overflow: scroll;
+}
 
+.cover-letter p{
+    width: 95%;
 }
 
 .experience article:last-child{
