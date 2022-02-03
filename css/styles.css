@@ -171,9 +171,9 @@ article{
 }
 
 .cover-letter{
-    height: 31%;
+    height: 30%;
     width: 100%;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .cover-letter p{
