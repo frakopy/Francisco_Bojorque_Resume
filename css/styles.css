@@ -164,7 +164,8 @@ article{
 }
 
 .cover-letter{
-    height: 34%;
+    background-color: #0D7377;
+    height: 33%;
     width: 100%;
     font-size: 27px;
     font-family: 'Dancing Script', cursive;
