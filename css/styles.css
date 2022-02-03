@@ -164,6 +164,11 @@ article{
     padding-top: 10px;
 }
 
+.cover-letter-part{
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+}
+
 .experience article:last-child{
     padding-bottom: 20px;
 }
