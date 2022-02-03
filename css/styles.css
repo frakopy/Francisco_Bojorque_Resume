@@ -80,7 +80,6 @@ li{
     height: 100%;
     background-color: #27496D;
     padding-left: 50px;
-    
 }
 
 .img-container{
@@ -164,9 +163,13 @@ article{
     padding-top: 10px;
 }
 
-.cover-letter-part{
-    font-size: 2rem;
+.cover-letter{
+    height: 34%;
+    width: 100%;
+    font-size: 27px;
     font-family: 'Dancing Script', cursive;
+    overflow: scroll;
+
 }
 
 .experience article:last-child{
